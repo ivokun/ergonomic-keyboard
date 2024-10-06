@@ -8,23 +8,6 @@
 #include "mouse.dtsi"
 
 #define DEFAULT 0
-#// -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-#// [MACROS]
-#// TASK   LCTL(LSFT(KC_ESC))
-#// TAB_R  LCTL(KC_TAB)
-#// TAB_L  LCTL(LSFT(KC_TAB))
-#// TAB_RO LCTL(LSFT(KC_T))
-#// --- CONFIG ---
-#// -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-#// | ESC   | 1     | 2      | 3     | 4    | 5        | 6                       | [LEFT <-> RIGHT]  |  7           | 8     | 9    | 0    | -    | =     | GRAVE  |
-#// | TAB   | Q     | W      | E     | R    | T        | [                       | [LEFT <-> RIGHT]  |  ]           | Y     | U    | I    | O    | P     | \      |
-#// | LCTRL | A     | S      | D     | F    | G        | LCTRL(LSHFT(KC_TAB))    | [LEFT <-> RIGHT]  |  TOGGLE 1    | H     | J    | K    | L    | ;     | '      |
-#// | LSHFT | Z     | X      | C     | V    | B        | NONE                    | [LEFT <-> RIGHT]  |  NONE        | N     | M    | ,    | .    | /     | RSHFT  |
-#// | CAPS  | LGUI  | TAB_L  | TAB_R | NONE | TOGGLE 2 | SPACE                   | [LEFT <-> RIGHT]  |  BACKSPACE   | ENTER | LEFT | UP   | DOWN | RIGHT | NONE   | 
-#// | NONE  | NONE  | NONE   | NONE  | NONE | END      | HOME                    | [LEFT <-> RIGHT]  |  PGUP        | PGDWN | NONE | NONE | NONE | NONE  | NONE   | 
-#// | NONE  | NONE  | NONE   | NONE  | NONE | PRTSCR   | TASK                    | [LEFT <-> RIGHT]  |  CTRL        | ALT   | NONE | NONE | NONE | NONE  | NONE   | 
-#// -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 / {
     keymap {
         compatible = "zmk,keymap";
